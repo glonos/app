@@ -2,7 +2,12 @@
   "name": "client",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://globos.github.io/app",
   "dependencies": {
+    "@material-ui/core": "^4.2.1",
+    "@material-ui/icons": "^4.2.1",
+    "gh-pages": "^2.0.1",
+    "glonos": "file:../",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-scripts": "3.0.1"
@@ -11,7 +16,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "publish": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
